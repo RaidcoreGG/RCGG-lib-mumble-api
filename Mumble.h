@@ -88,7 +88,7 @@ namespace Mumble
 	/* structs */
 	struct Identity
 	{
-		std::string		Name;
+		char			Name[20];
 		EProfession		Profession;
 		unsigned		Specialization;
 		ERace			Race;
